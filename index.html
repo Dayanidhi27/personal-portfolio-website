@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dayanidhi | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        .hero {
+            background-color: #333;
+            color: white;
+            padding: 50px 20px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        .hero img {
+            width: 160px;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+
+        nav {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            background-color: white;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 5px;
+        }
+
+        #contact {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        #contact div {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+        }
+
+        button {
+            background-color: #222;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #444;
+        }
+
+        .social-links img {
+            width: 35px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="hero">
+        <div>
+            <h1>Hello, I'm Dayanidhi</h1>
+            <p>Beginner Web Developer</p>
+        </div>
+        <img src="download.png" alt="Profile Photo">
+    </div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a 2<sup>nd</sup> year student at Bannari Amman Institute of Technology.
+            I am learning HTML and CSS and building beginner projects.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>C Programming</li>
+            <li>Python Basics</li>
+            <li>Networking Basics</li>
+            <li>HTML & CSS</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <div>
+            <h2>Contact</h2>
+            <p>Email: dayanidhimurugan27@gmail.com</p>
+            <p>Phone: 6383393708</p>
+            <p>Location: Villupuram</p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/dayanidhi-v-7a1511331/" target="_blank">
+                    <img src="logo.webp" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+
+        <div>
+            <form>
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Dayanidhi</p>
+    </footer>
+
+</body>
+</html>
